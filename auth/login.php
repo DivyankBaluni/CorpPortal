@@ -173,9 +173,9 @@ $root = rootUrl;
       <div style="margin-top:24px;padding:14px 16px;background:var(--teal-50);border-radius:8px;border:1px solid var(--teal-100);">
         <p style="font-size:.78rem;font-weight:700;color:var(--teal-700);margin-bottom:6px;text-transform:uppercase;letter-spacing:.4px;">Demo Credentials</p>
         <p style="font-size:.8rem;color:var(--teal-800);">
-          <strong>Admin:</strong> admin@company.com<br>
-          <strong>User:</strong> jane@company.com<br>
-          <strong>Password (both):</strong> Admin@123
+          <strong>Admin:</strong> manager@company.com<br>
+          <strong>User:</strong> user@company.com<br>
+          <strong>Password (both):</strong> PASSWORD
         </p>
       </div>
     </div>

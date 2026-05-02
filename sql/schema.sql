@@ -22,20 +22,18 @@ CREATE TABLE users (
 
 -- ----------------------------------------------------------------
 --  Seed: default admin account
---  Password: Admin@123  (bcrypt hash below)
+--  Password: PASSWORD  (bcrypt hash below)
 -- ----------------------------------------------------------------
 INSERT INTO users (name, email, password, role) VALUES
 (
-  'Super Admin',
-  'admin@company.com',
-  '$2y$12$YH3a5BDLqSBGTWlQvCT0V.kGCO9Xs6M3RiO6w5N1d1cRW5L.Dn4Oq',
+  'Admin',
+  'manager@company.com',
+  '$2y$12$LWphXyof4X2h2OYiChbQpulA2eiqPMOS5tc3rmaMhzja05oagucKi',
   'admin'
 ),
 (
-  'Jane Employee',
-  'jane@company.com',
-  '$2y$12$YH3a5BDLqSBGTWlQvCT0V.kGCO9Xs6M3RiO6w5N1d1cRW5L.Dn4Oq',
+  'User',
+  'user@company.com',
+  '$2y$12$8GGa5Ca6r.x9j2z3mwTUVeM7ZONMMs.ZeSmZrLM6WpjjWl9aa/DXu',
   'user'
 );
--- NOTE: The hash above maps to password "Admin@123"
---       Change it after first login.
